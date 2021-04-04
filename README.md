@@ -7,5 +7,3 @@ GIVEN a webpage meets accessibility standards WHEN I view the source code THEN I
 To make this website rank higher in search engines, I made sure all links were functioning correctly, used semantic html elements, and consolidated the selectors and properties on the CSS. This made the HTML and CSS more organized and easier to navigate and understand.
 
 The Horiseon marketing agency website looks like this:
-
-![alt text](http://url/to/img.png)
