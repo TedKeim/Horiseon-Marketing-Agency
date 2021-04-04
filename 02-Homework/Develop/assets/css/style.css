@@ -24,7 +24,9 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+/* changed div to nav */
+
+header nav { 
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,9 +38,11 @@ header nav ul {
     list-style-type: none;
 }
 
+/* changed div to nav */
+
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 a {
@@ -49,6 +53,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/* changed div to main */
 
 main {
     height: 800px;
@@ -86,21 +92,29 @@ main {
     background-color: #2589bd;
 }
 
+/* combined these classes together because they have the same margin bottom and color */
+
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost h3 {
+/* combined these h3 tags together because they have the same style */
+
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost img {
+/* combined these image classes together because they have the same style */
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*combined these classes together because they are styled the same */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -111,11 +125,15 @@ main {
     color: #ffffff;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing img {
+/* combined these image elements because they have the same max-height */
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing h2 {
+/* combined these h2 elements because they have the same styling */
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
